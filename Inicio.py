@@ -7,7 +7,7 @@ from datetime import datetime
 # Page configuration
 st.set_page_config(
     page_title="Análisis de Sensores en la finca de flores Florita",
-    page_icon="📊",
+    page_icon="🌺",
     layout="wide"
 )
 
@@ -24,7 +24,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Title and description
-st.title('📊 Análisis de datos de Sensores en Mi Ciudad')
+st.title('🌺 Análisis de datos de Sensores en la finca de flores Florita')
 st.markdown("""
     Esta aplicación permite analizar datos de temperatura y humedad
     recolectados por sensores ESP32 en diferentes puntos de la ciudad.
