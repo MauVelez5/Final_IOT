@@ -27,18 +27,18 @@ st.markdown("""
 st.title('🌺 Análisis de datos de Sensores en la finca de flores Florita')
 st.markdown("""
     Esta aplicación permite analizar datos de temperatura y humedad
-    recolectados por sensores ESP32 en diferentes puntos de la ciudad.
+    recolectados por sensores ESP32 en el cultivo de flores.
 """)
 
 # Create map data for EAFIT
 eafit_location = pd.DataFrame({
-    'lat': [6.2006],
-    'lon': [-75.5783],
-    'location': ['Universidad EAFIT']
+    'lat': [6.1158],
+    'lon': [-75.4068],
+    'location': ['Flores Llanogrande Florita SAS']
 })
 
 # Display map
-st.subheader("📍 Ubicación de los Sensores - Universidad EAFIT")
+st.subheader("🌺 Ubicación de los Sensores - Llanogrande, Rionegro")
 st.map(eafit_location, zoom=15)
 
 # File uploader
